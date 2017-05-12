@@ -344,6 +344,12 @@
 			"provider": {
 				"type": "object"
 			},
+			"measuresPeriod": {
+				"type": "number"
+			},
+			"measuresPeriodUnit": {
+				"type": "string"
+			},			
 			"contactPoint": {
 				"type": "object"
 			},
