@@ -248,6 +248,14 @@ it conveys what is such special location.
 + `provider` : Parking site service provider.
     + Normative references: [https://schema.org/provider](https://schema.org/provider)
     + Optional
+	
++ `measuresPeriod` : The measures period related to availableSpotNumber and priceRatePerMinute.
+    + Attribute type: [Number](http://schema.org/Number)
+    + Optional
+    
++ `measuresPeriodUnit` : The measures period unit related to availableSpotNumber and priceRatePerMinute.
+    + Attribute type: [unitText](http://schema.org/unitText)
+    + Optional	
     
 + `contactPoint` : Parking site contact point.
     + Normative references: [https://schema.org/contactPoint](https://schema.org/contactPoint)
